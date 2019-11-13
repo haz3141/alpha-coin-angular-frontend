@@ -122,8 +122,13 @@
               "devServerTarget": "alpha-coin-blockchain-angular:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "alpha-coin-blockchain-angular"
 }
